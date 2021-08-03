@@ -12,10 +12,10 @@ import Signup from '../component/logindetails/signup'
 import Forgetpwd from '../component/logindetails/forgetpwd'
 import Login from '../component/logindetails/logoin'
 const Routing = ()=>{
-    return(
-        <BrowserRouter> 
+    return( 
+        <BrowserRouter>  
             <Route exact path='/' component={Home}/>
-            <Route  path="/finance" component={Finance}/> 
+            <Route path="/finance" component={Finance}/> 
             <Route path="/Sales" component={Sales}/>
             <Route path="/productlist" component={Productlist}/>
             <Route path="/Productsingle" component={Productsingle}/>

@@ -583,7 +583,7 @@ const Home = ()=>{
                                                         <td><span className="badge-dot badge-success mr-1"></span>Delivered </td>
                                                     </tr>
                                                     <tr>
-                                                        <td colspan="9"><a href="#" className="btn btn-outline-light float-right">View Details</a></td>
+                                                        <td colSpan="9"><a href="#" className="btn btn-outline-light float-right">View Details</a></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -720,7 +720,7 @@ const Home = ()=>{
                                                         <td>$1000</td>
                                                     </tr>
                                                     <tr>
-                                                        <td colspan="3">
+                                                        <td colSpan="3">
                                                             <a href="#" className="btn btn-outline-light float-right">Details</a>
                                                         </td>
                                                     </tr>

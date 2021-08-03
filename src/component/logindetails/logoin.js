@@ -10,7 +10,7 @@ const Login =()=>{
                     <div className="card-body">
                         <form>
                             <div className="form-group">
-                                <input className="form-control form-control-lg" id="username" type="text" placeholder="Username" autocomplete="off"/>
+                                <input className="form-control form-control-lg" id="username" type="text" placeholder="Username" autoComplete="off"/>
                             </div>
                             <div className="form-group">
                                 <input className="form-control form-control-lg" id="password" type="password" placeholder="Password"/>
